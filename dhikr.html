@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhikr - Islam Web App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Dhikr</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="coran.html">Coran</a></li>
+            <li><a href="dhikr.html">Dhikr</a></li>
+            <li><a href="priere.html">Horaires de prière</a></li>
+            <li><a href="references.html">Références</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="dhikr-section">
+        <h2>Compteur de Dhikr</h2>
+
+        <label for="dhikr-select">Choisir un dhikr :</label>
+        <select id="dhikr-select">
+            <option value="SubhanAllah">SubhanAllah</option>
+            <option value="Alhamdulillah">Alhamdulillah</option>
+            <option value="Allahu Akbar">Allahu Akbar</option>
+        </select>
+
+        <p id="counter-display">Compteur : 0</p>
+        <button id="increment-btn">Faire le dhikr</button>
+        <button id="reset-btn">Réinitialiser</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Islam Web App | Site gratuit et accessible à tous</p>
+</footer>
+
+<script src="js/dhikr.js"></script>
+</body>
+</html>

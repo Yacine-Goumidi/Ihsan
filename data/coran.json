@@ -1,0 +1,20 @@
+﻿[
+  {
+    "numero": 1,
+    "nom": "Al-Fatiha",
+    "nom_arabe": "الفاتحة",
+    "versets": [
+      {"numero": 1, "texte_ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "texte_fr": "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux."},
+      {"numero": 2, "texte_ar": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ", "texte_fr": "Louange à Allah, Seigneur de l’univers."}
+    ]
+  },
+  {
+    "numero": 2,
+    "nom": "Al-Baqara",
+    "nom_arabe": "البقرة",
+    "versets": [
+      {"numero": 1, "texte_ar": "الم", "texte_fr": "Alif, Lam, Mim."},
+      {"numero": 2, "texte_ar": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ", "texte_fr": "Ceci est le Livre au sujet duquel il n’y a aucun doute."}
+    ]
+  }
+]
